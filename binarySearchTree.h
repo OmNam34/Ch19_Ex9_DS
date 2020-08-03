@@ -12,7 +12,7 @@ struct nodeType
 };
 
 
-template <class orderedLinkedList>
+template <class Type>
 class binarySearchTree
 {
 public:
@@ -203,7 +203,7 @@ public:
 			return a;
 		}
 		
-		void createList(orderedLinkedList list)
+		void createList <short int>(orderedLinkedList list)
 		{
 			for (int i = 0; i < 50; i++)
 			{
