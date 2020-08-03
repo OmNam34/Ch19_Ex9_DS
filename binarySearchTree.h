@@ -12,7 +12,7 @@ struct nodeType
 };
 
 
-template <class Type>
+template <class orderedLinkedList>
 class binarySearchTree
 {
 public:
@@ -202,14 +202,14 @@ public:
 			int a = c / 3;
 			return a;
 		}
-
-		void createList(orderedLinkedList name)
+		
+		void createList(orderedLinkedList list)
 		{
 			for (int i = 0; i < 50; i++)
 			{
 				if (arr[i] != 1000000000)
 				{
-					orderedLinkedList:: name.insert(arr[i]);
+					orderedLinkedList::list.insert(arr[i]);
 				}
 			}
 		}
