@@ -209,6 +209,7 @@ public:
 			{
 				if (arr[i] != 1000000000)
 				{
+					using orderedLinkedList::insert;
 					orderedLinkedList::list.insert(arr[i]);
 				}
 			}
